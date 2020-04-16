@@ -47,7 +47,7 @@ Parameter 5: testcafe js
    npm update
    npm link
    ```
-4. For the purpose of hackathon, three sample tests are included. One sample performance test and two sample UI functionality tests are there on mantra labs website.
+4. Three sample tests are included. One sample performance test and two sample UI functionality tests are there on Mantra Labs website.
 
 5. To execute the performance test, run the following command:
 
