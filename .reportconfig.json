@@ -1,0 +1,25 @@
+{
+  "disableLog": false,
+  "displayDuration": true,
+  "durationInMS": true,
+  "customData": {
+    "title": "Run info",
+    "data": [
+      {
+        "label": "Project",
+        "value": "487d818cdb7eabdc-2019-8-24-20-46-28-report.json"
+      },
+      {
+        "label": "Release",
+        "value": "1.0.0"
+      },
+      {
+        "label": "2019-8-24-20-46-28"
+      }
+    ]
+  },
+  "reportName": "487d818cdb7eabdc",
+  "openReportInBrowser": true,
+  "jsonDir": "test-results/reports/ui-tests/487d818cdb7eabdc-2019-8-24-20-46-28",
+  "reportPath": "test-results/reports/ui-tests/487d818cdb7eabdc-2019-8-24-20-46-28"
+}

@@ -1,0 +1,30 @@
+{
+  "uiBaseUrl": "https://www.mantralabsglobal.com",
+  "performanceBaseUrl": "https://www.mantralabsglobal.com",
+  "performance_report_output_folder": "test-results/reports/performance-tests",
+  "performance_report_base_name": "performance-report",
+  "username": "beer party tonight",
+  "email": "harsh.vardhan@matralabsglobal.com",
+  "message": "If you can see this text, we are having beer party tonight!!",
+  "uitests": [
+    {
+      "testId": "beer-party-tonight-001",
+      "purpose": "to verify that a robot can not submit the contact details",
+      "name": "verification-robot-cant-submit-contact-details",
+      "user_action": "the robot is able to scroll down, fill contact details and attempt to click recaptcha box",
+      "expectation": "robot can't click on recaptcha box",
+      "severity": "critical"
+    },
+    {
+      "testId": "beer-party-tonight-002",
+      "purpose": "to verify if blogs search can search by fuzzy inputs",
+      "name": "verification-blogs-search-fuzzy-inputs",
+      "user_action": "the user inputs a fuzzy search keyword (netehrlands in this example)",
+      "expectation": "blogs with titles matching with fuzzy keyword should appear (https://www.mantralabsglobal.com/blog/netherlands-insurance-scenario-and-technology/ in this example)",
+      "severity": "low"
+    }
+  ],
+  "fuzzy_keyword": "netehrlands",
+  "uitests_fixture": "Hackathon-Mantra-Labs-Website-Testing",
+  "baseUrl": "https://www.mantralabsglobal.com"
+}

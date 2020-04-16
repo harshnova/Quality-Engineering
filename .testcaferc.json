@@ -1,0 +1,25 @@
+{
+  "browsers": "chrome",
+  "skipJsErrors": true,
+  "selectorTimeout": 10000,
+  "pageLoadTimeout": 10000,
+  "speed": 1,
+  "reporter": [
+    {
+      "name": "spec"
+    },
+    {
+      "name": "cucumber-json",
+      "output": "test-results/reports/ui-tests/487d818cdb7eabdc-2019-8-24-20-46-28/487d818cdb7eabdc-2019-8-24-20-46-28-report.json"
+    }
+  ],
+  "takeScreenshotsOnFails": true,
+  "videoPath": "test-results/outputs/videos",
+  "videoOptions": {
+    "singleFile": false,
+    "failedOnly": true,
+    "pathPattern": "${TEST}/${DATE}-${TIME}_${TEST_ID}_${FILE_INDEX}.mp4"
+  },
+  "screenshotPath": "test-results/outputs/screenshots",
+  "screenshotPathPattern": "${TEST}/${DATE}-${TIME}_${TEST_ID}_${FILE_INDEX}.png"
+}
