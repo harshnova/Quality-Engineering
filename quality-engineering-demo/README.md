@@ -1,6 +1,3 @@
-## Submission for QA/Automation: Problem 1
-Automation of performance testing metrics generation using 3rd party tools
-
 ## What have we built: 
 A command line utility for measuring website performance and running UI functionality test on nodejs
 
